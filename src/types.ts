@@ -1,4 +1,3 @@
-import { IconName } from '@fortawesome/fontawesome-svg-core';
 
 export type Image = {
   src: string;

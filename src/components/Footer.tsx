@@ -14,8 +14,8 @@ const Footer = () => {
       <FooterContainer>
         <Fade direction="left" triggerOnce>
           <TextWrapper fontSize={[2, 3]}>
-            <p>{`email: varzynski@gmail.com`}</p>
-            <p>{`phone: +48 887 703 223`}</p>
+            <p>{`Email: varzynski@gmail.com`}</p>
+            <p>{`Phone: +48 887 703 223`}</p>
           </TextWrapper>
         </Fade>
         <Flex>

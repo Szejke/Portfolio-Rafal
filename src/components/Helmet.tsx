@@ -11,8 +11,6 @@ const Helmet = ({ theme }: Props) => {
   const { name, description, profile } = useHelmetQuery();
   const title = `${name} Portfolio`;
 
-  console.log(`https:${profile.bigIcon.src}`);
-
   return (
     <ReactHelmet htmlAttributes={{ lang: 'en' }}>
       <meta charSet="utf-8" />

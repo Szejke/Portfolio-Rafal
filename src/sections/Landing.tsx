@@ -86,6 +86,7 @@ const MyImage = styled.img`
   bottom: 0rem;
   right: 12vw;
   height: 90vh;
+  filter: drop-shadow(22px 3px 40px rgba(0, 0, 0, 0.60));
 `;
 
 const CoverImage = styled.img`
